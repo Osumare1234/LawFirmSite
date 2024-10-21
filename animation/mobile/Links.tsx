@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 import { TlinksProps } from "@/types";
-import { slide } from "@/motion";
+import { scale, slide } from "@/motion";
 
 export default function Links({
 	data,
